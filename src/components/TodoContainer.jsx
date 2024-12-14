@@ -13,16 +13,7 @@ function TodoContainer() {
 
     const initState = {
         todoList: {
-            "first_key": {
-                "todoText": "Test",
-                "editingEnabled": false,
-                "isCompleted": false
-            },
-            "second_key": {
-                "todoText": "AAA",
-                "editingEnabled": false,
-                "isCompleted": false
-            }
+
         },
     }
 
