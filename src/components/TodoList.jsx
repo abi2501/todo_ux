@@ -66,6 +66,7 @@ function TodoList() {
 
             let msg = todoList[id].todoText.slice(0, 10)
             msg = todoList[id].todoText.length > 10 ? msg + "..." : msg
+            toast.dismiss();
             toast.info(msg + " deleted !!")
         }
         setShowModal(false);
